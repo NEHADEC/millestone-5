@@ -1,0 +1,107 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shereable Resume Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Shereable Resume Builder</h1>
+  <form id="resume-form">
+    <label for="Username">Username:</label>
+    <input type="text" id="Username"placeholder="Enter yaur Username" name="name" required>
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div>
+      <label for="education">Education:</label>
+      <input type="text" id="education" name="education" required>
+    </div>
+    <div>
+      <label for="experience">Work Experience:</label>
+      <textarea id="experience" name="experience" required></textarea>
+    </div>
+    <div>
+      <label for="skills">Skills:</label>
+      <input type="text" id="skills" name="skills" required>
+    </div>
+    <button type="submit">Generate Resume</button>
+  </form>
+
+  <h2>Generated Resume</h2>
+  <div id="resume-output"></div>
+  <br>
+  <div id="Shereable-link-container" style="display: none;">
+    <h2>Shareable Link</h2>
+    <p>Here is your unique link to view or edit your resume:</p>
+    <a href="#" id="Shereable-link" target="_blank"></a>
+    <br>
+    <button id="download-pdf"><b>Download  as PDF</b></button>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shareable Resume Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Shareable Resume Builder</h1>
+  <form id="resume-form">
+    <div>
+      <label for="username">Username:</label>
+      <input type="text" id="username" placeholder="Enter your Username" name="username" required>
+    </div>
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div>
+      <label for="phone">Phone:</label>
+      <input type="text" id="phone" name="phone" required>
+    </div>
+    <div>
+      <label for="education">Education:</label>
+      <textarea id="education" name="education" required></textarea>
+    </div>
+    <div>
+      <label for="experience">Work Experience:</label>
+      <textarea id="experience" name="experience" required></textarea>
+    </div>
+    <div>
+      <label for="skills">Skills:</label>
+      <textarea id="skills" name="skills" required></textarea>
+    </div>
+    <button type="submit">Generate Resume</button>
+  </form>
+
+  <h2>Generated Resume</h2>
+  <div id="resume-display"></div>
+  <br>
+  <div id="shareable-link-container" style="display: none;">
+    <h2>Shareable Link</h2>
+    <p>Here is your unique link to view or edit your resume:</p>
+    <a href="#" id="shareable-link" target="_blank"></a>
+    <br>
+    <button id="download-pdf"><b>Download as PDF</b></button>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
